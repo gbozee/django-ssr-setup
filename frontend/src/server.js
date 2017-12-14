@@ -1,4 +1,4 @@
-require('module-alias/register');
+// require('module-alias/register');
 // in src/server/index.js
 import express from 'express';
 import React from 'react';
@@ -12,12 +12,17 @@ import Routes from './routes'
 import render from './render';
 import { getBundles } from 'react-loadable/webpack'
 import stats from './react-loadable.json';
-
+import path from 'path'
 const app = express();
 // Serve client.js and vendor.js
 app.use('/static', express.static(__dirname + '/static'));
-
 let modules = [];
+app.get('/manifest.json',(req,res)=> {
+    res.status(200).sendFile(path.resolve(__dirname, "manifest.json"))
+})
+app.get('/service-worker.js', (req, res)=>{
+    res.status(200).sendFile(path.resolve(__dirname, 'service-worker.js'))
+})
 app.get('*', (req, res) => {
     const context = {};
 
@@ -43,9 +48,11 @@ app.get('*', (req, res) => {
     const styleTags = sheet.getStyleTags()
     // const styleTags = ""
     // console.log(modules)
-    let bundles = getBundles(stats, modules);
+    let bundles = getBundles(stats, ["undefined", ...modules]);
+    let styles = bundles.filter(bundle => bundle.file.endsWith(".css"));
+    let scripts = bundles.filter(bundle => bundle.file.endsWith(".js"));
     console.log(bundles) 
-    res.status(200).send(render(html, styleTags, bundles));
+    res.status(200).send(render(html, styleTags, scripts, styles));
 });
 Loadable.preloadAll().then(() => {
     app.listen(3000, () => console.log('Demo app listening on port 3000'));
