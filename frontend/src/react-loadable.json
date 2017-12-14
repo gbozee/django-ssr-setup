@@ -1,86 +1,436 @@
 {
-  "undefined": [
-    {
-      "id": 0,
-      "name": "react",
-      "file": "server.js"
-    },
-    {
-      "id": 1,
-      "name": "styled-components",
-      "file": "server.js"
-    },
-    {
-      "id": 3,
-      "name": "express",
-      "file": "server.js"
-    },
-    {
-      "id": 4,
-      "name": "react-dom/server",
-      "file": "server.js"
-    },
-    {
-      "id": 5,
-      "name": "react-router-dom",
-      "file": "server.js"
-    },
-    {
-      "id": 6,
-      "name": "react-loadable",
-      "file": "server.js"
-    },
-    {
-      "id": 7,
-      "name": "react-loadable/webpack",
-      "file": "server.js"
-    },
-    {
-      "id": 13,
-      "name": "module-alias/register",
-      "file": "server.js"
-    }
-  ],
-  "server.js": [
-    {
-      "id": 2,
-      "name": "./server.js",
-      "file": "server.js"
-    }
-  ],
   "./App": [
     {
-      "id": 8,
-      "name": "./App.js",
-      "file": "server.js"
+      "id": 21,
+      "name": "./src/App.js",
+      "file": "static/js/0.17e10159.chunk.js"
+    },
+    {
+      "id": 21,
+      "name": "./src/App.js",
+      "file": "static/js/0.17e10159.chunk.js.map"
+    }
+  ],
+  "styled-components": [
+    {
+      "id": 23,
+      "name": "./node_modules/styled-components/dist/styled-components.es.js",
+      "file": "static/js/0.17e10159.chunk.js"
+    },
+    {
+      "id": 23,
+      "name": "./node_modules/styled-components/dist/styled-components.es.js",
+      "file": "static/js/0.17e10159.chunk.js.map"
+    },
+    {
+      "id": 23,
+      "name": "./node_modules/styled-components/dist/styled-components.es.js",
+      "file": "static/js/1.392e12f1.chunk.js"
+    },
+    {
+      "id": 23,
+      "name": "./node_modules/styled-components/dist/styled-components.es.js",
+      "file": "static/js/1.392e12f1.chunk.js.map"
+    }
+  ],
+  "./../../webpack/buildin/harmony-module.js": [
+    {
+      "id": 24,
+      "name": "./node_modules/webpack/buildin/harmony-module.js",
+      "file": "static/js/0.17e10159.chunk.js"
+    },
+    {
+      "id": 24,
+      "name": "./node_modules/webpack/buildin/harmony-module.js",
+      "file": "static/js/0.17e10159.chunk.js.map"
+    },
+    {
+      "id": 24,
+      "name": "./node_modules/webpack/buildin/harmony-module.js",
+      "file": "static/js/1.392e12f1.chunk.js"
+    },
+    {
+      "id": 24,
+      "name": "./node_modules/webpack/buildin/harmony-module.js",
+      "file": "static/js/1.392e12f1.chunk.js.map"
+    }
+  ],
+  "is-plain-object": [
+    {
+      "id": 25,
+      "name": "./node_modules/is-plain-object/index.js",
+      "file": "static/js/0.17e10159.chunk.js"
+    },
+    {
+      "id": 25,
+      "name": "./node_modules/is-plain-object/index.js",
+      "file": "static/js/0.17e10159.chunk.js.map"
+    },
+    {
+      "id": 25,
+      "name": "./node_modules/is-plain-object/index.js",
+      "file": "static/js/1.392e12f1.chunk.js"
+    },
+    {
+      "id": 25,
+      "name": "./node_modules/is-plain-object/index.js",
+      "file": "static/js/1.392e12f1.chunk.js.map"
+    }
+  ],
+  "isobject": [
+    {
+      "id": 26,
+      "name": "./node_modules/isobject/index.js",
+      "file": "static/js/0.17e10159.chunk.js"
+    },
+    {
+      "id": 26,
+      "name": "./node_modules/isobject/index.js",
+      "file": "static/js/0.17e10159.chunk.js.map"
+    },
+    {
+      "id": 26,
+      "name": "./node_modules/isobject/index.js",
+      "file": "static/js/1.392e12f1.chunk.js"
+    },
+    {
+      "id": 26,
+      "name": "./node_modules/isobject/index.js",
+      "file": "static/js/1.392e12f1.chunk.js.map"
+    }
+  ],
+  "stylis": [
+    {
+      "id": 27,
+      "name": "./node_modules/stylis/stylis.js",
+      "file": "static/js/0.17e10159.chunk.js"
+    },
+    {
+      "id": 27,
+      "name": "./node_modules/stylis/stylis.js",
+      "file": "static/js/0.17e10159.chunk.js.map"
+    },
+    {
+      "id": 27,
+      "name": "./node_modules/stylis/stylis.js",
+      "file": "static/js/1.392e12f1.chunk.js"
+    },
+    {
+      "id": 27,
+      "name": "./node_modules/stylis/stylis.js",
+      "file": "static/js/1.392e12f1.chunk.js.map"
+    }
+  ],
+  "is-function": [
+    {
+      "id": 28,
+      "name": "./node_modules/is-function/index.js",
+      "file": "static/js/0.17e10159.chunk.js"
+    },
+    {
+      "id": 28,
+      "name": "./node_modules/is-function/index.js",
+      "file": "static/js/0.17e10159.chunk.js.map"
+    },
+    {
+      "id": 28,
+      "name": "./node_modules/is-function/index.js",
+      "file": "static/js/1.392e12f1.chunk.js"
+    },
+    {
+      "id": 28,
+      "name": "./node_modules/is-function/index.js",
+      "file": "static/js/1.392e12f1.chunk.js.map"
+    }
+  ],
+  "hoist-non-react-statics": [
+    {
+      "id": 29,
+      "name": "./node_modules/hoist-non-react-statics/index.js",
+      "file": "static/js/0.17e10159.chunk.js"
+    },
+    {
+      "id": 29,
+      "name": "./node_modules/hoist-non-react-statics/index.js",
+      "file": "static/js/0.17e10159.chunk.js.map"
+    },
+    {
+      "id": 29,
+      "name": "./node_modules/hoist-non-react-statics/index.js",
+      "file": "static/js/1.392e12f1.chunk.js"
+    },
+    {
+      "id": 29,
+      "name": "./node_modules/hoist-non-react-statics/index.js",
+      "file": "static/js/1.392e12f1.chunk.js.map"
     }
   ],
   "./logo.svg": [
     {
-      "id": 9,
-      "name": "./logo.svg",
-      "file": "server.js"
+      "id": 30,
+      "name": "./src/logo.svg",
+      "file": "static/js/0.17e10159.chunk.js"
+    },
+    {
+      "id": 30,
+      "name": "./src/logo.svg",
+      "file": "static/js/0.17e10159.chunk.js.map"
+    }
+  ],
+  "./App2": [
+    {
+      "id": 22,
+      "name": "./src/App2.js",
+      "file": "static/js/1.392e12f1.chunk.js"
+    },
+    {
+      "id": 22,
+      "name": "./src/App2.js",
+      "file": "static/js/1.392e12f1.chunk.js.map"
+    }
+  ],
+  "./factoryWithThrowingShims": [
+    {
+      "id": 17,
+      "name": "./node_modules/prop-types/factoryWithThrowingShims.js",
+      "file": "static/js/main.68d442dc.js"
+    },
+    {
+      "id": 17,
+      "name": "./node_modules/prop-types/factoryWithThrowingShims.js",
+      "file": "static/js/main.68d442dc.js.map"
+    }
+  ],
+  "undefined": [
+    {
+      "id": 5,
+      "name": null,
+      "file": "static/js/main.68d442dc.js"
+    },
+    {
+      "id": 0,
+      "name": "react",
+      "file": "static/js/main.68d442dc.js"
+    },
+    {
+      "id": 14,
+      "name": "react-dom",
+      "file": "static/js/main.68d442dc.js"
+    },
+    {
+      "id": 1,
+      "name": "react-router-dom",
+      "file": "static/js/main.68d442dc.js"
+    },
+    {
+      "id": 12,
+      "name": "object-assign",
+      "file": "static/js/main.68d442dc.js"
+    },
+    {
+      "id": 5,
+      "name": null,
+      "file": "static/js/main.68d442dc.js.map"
+    },
+    {
+      "id": 0,
+      "name": "react",
+      "file": "static/js/main.68d442dc.js.map"
+    },
+    {
+      "id": 14,
+      "name": "react-dom",
+      "file": "static/js/main.68d442dc.js.map"
+    },
+    {
+      "id": 1,
+      "name": "react-router-dom",
+      "file": "static/js/main.68d442dc.js.map"
+    },
+    {
+      "id": 12,
+      "name": "object-assign",
+      "file": "static/js/main.68d442dc.js.map"
+    }
+  ],
+  "c:\\Users\\Biola\\Documents\\projects\\open-source\\django-ssr-setup\\frontend\\src\\index.js": [
+    {
+      "id": 13,
+      "name": "./src/index.js",
+      "file": "static/js/main.68d442dc.js"
+    },
+    {
+      "id": 13,
+      "name": "./src/index.js",
+      "file": "static/js/main.68d442dc.js.map"
+    }
+  ],
+  "./registerServiceWorker": [
+    {
+      "id": 15,
+      "name": "./src/registerServiceWorker.js",
+      "file": "static/js/main.68d442dc.js"
+    },
+    {
+      "id": 15,
+      "name": "./src/registerServiceWorker.js",
+      "file": "static/js/main.68d442dc.js.map"
     }
   ],
   "./routes": [
     {
-      "id": 10,
-      "name": "./routes.js",
-      "file": "server.js"
+      "id": 16,
+      "name": "./src/routes.js",
+      "file": "static/js/main.68d442dc.js"
+    },
+    {
+      "id": 16,
+      "name": "./src/routes.js",
+      "file": "static/js/main.68d442dc.js.map"
     }
   ],
-  "./render": [
+  "react-loadable": [
+    {
+      "id": 3,
+      "name": "./node_modules/react-loadable/lib/index.js",
+      "file": "static/js/main.68d442dc.js"
+    },
+    {
+      "id": 3,
+      "name": "./node_modules/react-loadable/lib/index.js",
+      "file": "static/js/main.68d442dc.js.map"
+    }
+  ],
+  "prop-types": [
+    {
+      "id": 4,
+      "name": "./node_modules/prop-types/index.js",
+      "file": "static/js/main.68d442dc.js"
+    },
+    {
+      "id": 4,
+      "name": "./node_modules/prop-types/index.js",
+      "file": "static/js/main.68d442dc.js.map"
+    }
+  ],
+  "c:\\Users\\Biola\\Documents\\projects\\open-source\\django-ssr-setup\\frontend\\node_modules\\react-scripts\\config\\polyfills.js": [
+    {
+      "id": 6,
+      "name": "./node_modules/react-scripts/config/polyfills.js",
+      "file": "static/js/main.68d442dc.js"
+    },
+    {
+      "id": 6,
+      "name": "./node_modules/react-scripts/config/polyfills.js",
+      "file": "static/js/main.68d442dc.js.map"
+    }
+  ],
+  "fbjs/lib/emptyFunction": [
+    {
+      "id": 18,
+      "name": "./node_modules/fbjs/lib/emptyFunction.js",
+      "file": "static/js/main.68d442dc.js"
+    },
+    {
+      "id": 18,
+      "name": "./node_modules/fbjs/lib/emptyFunction.js",
+      "file": "static/js/main.68d442dc.js.map"
+    }
+  ],
+  "fbjs/lib/invariant": [
+    {
+      "id": 19,
+      "name": "./node_modules/fbjs/lib/invariant.js",
+      "file": "static/js/main.68d442dc.js"
+    },
+    {
+      "id": 19,
+      "name": "./node_modules/fbjs/lib/invariant.js",
+      "file": "static/js/main.68d442dc.js.map"
+    }
+  ],
+  "./lib/ReactPropTypesSecret": [
+    {
+      "id": 20,
+      "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+      "file": "static/js/main.68d442dc.js"
+    },
+    {
+      "id": 20,
+      "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+      "file": "static/js/main.68d442dc.js.map"
+    }
+  ],
+  "promise/lib/rejection-tracking": [
+    {
+      "id": 7,
+      "name": "./node_modules/promise/lib/rejection-tracking.js",
+      "file": "static/js/main.68d442dc.js"
+    },
+    {
+      "id": 7,
+      "name": "./node_modules/promise/lib/rejection-tracking.js",
+      "file": "static/js/main.68d442dc.js.map"
+    }
+  ],
+  "promise/lib/es6-extensions.js": [
+    {
+      "id": 10,
+      "name": "./node_modules/promise/lib/es6-extensions.js",
+      "file": "static/js/main.68d442dc.js"
+    },
+    {
+      "id": 10,
+      "name": "./node_modules/promise/lib/es6-extensions.js",
+      "file": "static/js/main.68d442dc.js.map"
+    }
+  ],
+  "whatwg-fetch": [
     {
       "id": 11,
-      "name": "./render.js",
-      "file": "server.js"
+      "name": "./node_modules/whatwg-fetch/fetch.js",
+      "file": "static/js/main.68d442dc.js"
+    },
+    {
+      "id": 11,
+      "name": "./node_modules/whatwg-fetch/fetch.js",
+      "file": "static/js/main.68d442dc.js.map"
     }
   ],
-  "./react-loadable.json": [
+  "./core.js": [
     {
-      "id": 12,
-      "name": "./react-loadable.json",
-      "file": "server.js"
+      "id": 2,
+      "name": "./node_modules/promise/lib/core.js",
+      "file": "static/js/main.68d442dc.js"
+    },
+    {
+      "id": 2,
+      "name": "./node_modules/promise/lib/core.js",
+      "file": "static/js/main.68d442dc.js.map"
+    }
+  ],
+  "asap/raw": [
+    {
+      "id": 8,
+      "name": "./node_modules/asap/browser-raw.js",
+      "file": "static/js/main.68d442dc.js"
+    },
+    {
+      "id": 8,
+      "name": "./node_modules/asap/browser-raw.js",
+      "file": "static/js/main.68d442dc.js.map"
+    }
+  ],
+  "./../webpack/buildin/global.js": [
+    {
+      "id": 9,
+      "name": "./node_modules/webpack/buildin/global.js",
+      "file": "static/js/main.68d442dc.js"
+    },
+    {
+      "id": 9,
+      "name": "./node_modules/webpack/buildin/global.js",
+      "file": "static/js/main.68d442dc.js.map"
     }
   ]
 }

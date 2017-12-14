@@ -6,15 +6,21 @@ import {
     BrowserRouter as Router,
 } from 'react-router-dom'
 import Routes from './routes'
-import { loadComponents } from 'loadable-components';
-
+// import { loadComponents } from 'loadable-components';
+import Loadable from "react-loadable";
 
 const Root = (props)=>(
     <Router>
         <Routes {...props}/>
     </Router>
 )
-loadComponents().then(()=>{
-    ReactDOM.render(<Root />, document.getElementById('root'));
-    registerServiceWorker();
-})
+// ReactDOM.render(<Root />, document.getElementById('root'));
+// // loadComponents().then(()=>{
+    // // })
+    window.main = () => {
+        Loadable.preloadReady().then(() => {
+            // registerServiceWorker();
+        ReactDOM.hydrate(<Root />, document.getElementById('root'));
+    });
+};
+window.main()

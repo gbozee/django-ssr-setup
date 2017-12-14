@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 import styled, {css, keyframes, injectGlobal} from 'styled-components'
 import logo from './logo.svg';
 injectGlobal`
@@ -43,6 +44,7 @@ class App extends Component {
         <p>
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <Link to="/new" >To New </Link>
       </Div>
     );
   }

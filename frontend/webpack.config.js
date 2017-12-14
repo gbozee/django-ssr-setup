@@ -1,6 +1,5 @@
 const nodeExternals = require('webpack-node-externals');
 const path = require('path');
-const { ReactLoadablePlugin } = require('react-loadable/webpack');
 
 
 
@@ -74,7 +73,7 @@ module.exports = {
                             },
                         }],
                     ],
-                    "plugins": ["transform-object-rest-spread", "dynamic-import-webpack",]
+                    "plugins": ["transform-object-rest-spread", "dynamic-import-webpack","react-loadable/babel"]
                 }
             },
         ],
