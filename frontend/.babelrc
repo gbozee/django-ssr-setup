@@ -1,5 +1,12 @@
-{ "presets": ["react",["env",{
-    "targets": {
-        "node": "current"
-    }
-}]] }
+{
+    "presets": ["react", ["env", {
+        "targets": {
+            "node": "current"
+        }
+    }]],
+    "plugins": [
+        "react-loadable/babel",
+        "transform-object-rest-spread",
+        "dynamic-import-webpack"
+    ]
+}

@@ -42,8 +42,9 @@ app.get('*', (req, res) => {
     );
     const styleTags = sheet.getStyleTags()
     // const styleTags = ""
-    console.log(modules) 
+    // console.log(modules)
     let bundles = getBundles(stats, modules);
+    console.log(bundles) 
     res.status(200).send(render(html, styleTags, bundles));
 });
 Loadable.preloadAll().then(() => {

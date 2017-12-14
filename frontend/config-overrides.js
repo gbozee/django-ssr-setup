@@ -3,14 +3,15 @@ const rewireStyledComponents = require('react-app-rewire-styled-components');
 const PreloadWebpackPlugin = require('preload-webpack-plugin');
 const { ReactLoadablePlugin } = require('react-loadable/webpack');
 const DynamicCDNWebpackPlugin = require('dynamic-cdn-webpack-plugin')
-
+const CompressionPlugin = require("compression-webpack-plugin")
 var _require = require('react-app-rewired'),
     injectBabelPlugin = _require.injectBabelPlugin;
 
 function rewirePreload(config, env) {
     config.plugins = [
         ...config.plugins,
-        new DynamicCDNWebpackPlugin(),
+        // new DynamicCDNWebpackPlugin(),
+        new CompressionPlugin({ test: /\.js/}),
     new PreloadWebpackPlugin({
         rel: 'prefetch'
     }),
@@ -25,7 +26,7 @@ function rewireLoadable(config,env){
             filename: './src/react-loadable.json',
         }),
     ]
-    return injectBabelPlugin(["react-loadable/babel"], config);
+    return injectBabelPlugin("react-loadable/babel", config);
 }
 
 module.exports = function override(config, env) {

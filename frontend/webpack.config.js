@@ -58,24 +58,36 @@ module.exports = {
                     },
                 },
             },
-            
             {
                 test: /\.js$/,
-                exclude: /node_modules/,
-                loader: 'babel-loader',
-                // babelrc: false,
+                exclude: /(node_modules|bower_components)/,
+                use: {
+                    loader: 'babel-loader',
+                    // options: {
+                    //     babelrc: false,
+                    //     presets: [
+                    //         ['env', {
+                    //             targets: {
+                    //                 node: 8,
+                    //             },
+                    //     }], 'react'
+                    //     ],
+                    //     "plugins": [
+                    //         "transform-object-rest-spread",
+                    //         "dynamic-import-webpack",
+                    //         "react-loadable/babel"]
 
-                query: {
-                    presets: [
-                        ['env', {
-                            targets: {
-                                node: 8,
-                            },
-                        }],
-                    ],
-                    "plugins": ["transform-object-rest-spread", "dynamic-import-webpack","react-loadable/babel"]
+                    // }
                 }
-            },
+            }
+            // {
+            //     test: /\.js$/,
+            //     exclude: /node_modules/,
+            //     loader: 'babel-loader',
+            //     babelrc: false,
+            //     query: {
+            //                         }
+            // },
         ],
     },
     externals: nodeExternals(),
