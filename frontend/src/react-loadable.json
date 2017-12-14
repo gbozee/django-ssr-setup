@@ -1,0 +1,86 @@
+{
+  "undefined": [
+    {
+      "id": 0,
+      "name": "react",
+      "file": "server.js"
+    },
+    {
+      "id": 1,
+      "name": "styled-components",
+      "file": "server.js"
+    },
+    {
+      "id": 3,
+      "name": "express",
+      "file": "server.js"
+    },
+    {
+      "id": 4,
+      "name": "react-dom/server",
+      "file": "server.js"
+    },
+    {
+      "id": 5,
+      "name": "react-router-dom",
+      "file": "server.js"
+    },
+    {
+      "id": 6,
+      "name": "react-loadable",
+      "file": "server.js"
+    },
+    {
+      "id": 7,
+      "name": "react-loadable/webpack",
+      "file": "server.js"
+    },
+    {
+      "id": 13,
+      "name": "module-alias/register",
+      "file": "server.js"
+    }
+  ],
+  "server.js": [
+    {
+      "id": 2,
+      "name": "./server.js",
+      "file": "server.js"
+    }
+  ],
+  "./App": [
+    {
+      "id": 8,
+      "name": "./App.js",
+      "file": "server.js"
+    }
+  ],
+  "./logo.svg": [
+    {
+      "id": 9,
+      "name": "./logo.svg",
+      "file": "server.js"
+    }
+  ],
+  "./routes": [
+    {
+      "id": 10,
+      "name": "./routes.js",
+      "file": "server.js"
+    }
+  ],
+  "./render": [
+    {
+      "id": 11,
+      "name": "./render.js",
+      "file": "server.js"
+    }
+  ],
+  "./react-loadable.json": [
+    {
+      "id": 12,
+      "name": "./react-loadable.json",
+      "file": "server.js"
+    }
+  ]
+}

@@ -99,3 +99,7 @@ ENV/
 
 # mypy
 .mypy_cache/
+frontend/node_modules
+frontend/.vscode
+frontend/build
+.vscode
