@@ -193,244 +193,244 @@
     {
       "id": 19,
       "name": "./node_modules/prop-types/factoryWithThrowingShims.js",
-      "file": "static/js/main.0a0708fb.js"
+      "file": "static/js/main.541a3f29.js"
     },
     {
       "id": 19,
       "name": "./node_modules/prop-types/factoryWithThrowingShims.js",
-      "file": "static/js/main.0a0708fb.js.map"
+      "file": "static/js/main.541a3f29.js.map"
     }
   ],
   "undefined": [
     {
       "id": 7,
       "name": null,
-      "file": "static/js/main.0a0708fb.js"
+      "file": "static/js/main.541a3f29.js"
     },
     {
       "id": 0,
       "name": "react",
-      "file": "static/js/main.0a0708fb.js"
+      "file": "static/js/main.541a3f29.js"
     },
     {
       "id": 16,
       "name": "react-dom",
-      "file": "static/js/main.0a0708fb.js"
+      "file": "static/js/main.541a3f29.js"
     },
     {
       "id": 1,
       "name": "react-router-dom",
-      "file": "static/js/main.0a0708fb.js"
+      "file": "static/js/main.541a3f29.js"
     },
     {
       "id": 14,
       "name": "object-assign",
-      "file": "static/js/main.0a0708fb.js"
+      "file": "static/js/main.541a3f29.js"
     },
     {
       "id": 7,
       "name": null,
-      "file": "static/js/main.0a0708fb.js.map"
+      "file": "static/js/main.541a3f29.js.map"
     },
     {
       "id": 0,
       "name": "react",
-      "file": "static/js/main.0a0708fb.js.map"
+      "file": "static/js/main.541a3f29.js.map"
     },
     {
       "id": 16,
       "name": "react-dom",
-      "file": "static/js/main.0a0708fb.js.map"
+      "file": "static/js/main.541a3f29.js.map"
     },
     {
       "id": 1,
       "name": "react-router-dom",
-      "file": "static/js/main.0a0708fb.js.map"
+      "file": "static/js/main.541a3f29.js.map"
     },
     {
       "id": 14,
       "name": "object-assign",
-      "file": "static/js/main.0a0708fb.js.map"
+      "file": "static/js/main.541a3f29.js.map"
     }
   ],
   "C:\\Users\\gboze\\Documents\\projects\\opensource\\django-ssr\\frontend\\src\\index.js": [
     {
       "id": 15,
       "name": "./src/index.js",
-      "file": "static/js/main.0a0708fb.js"
+      "file": "static/js/main.541a3f29.js"
     },
     {
       "id": 15,
       "name": "./src/index.js",
-      "file": "static/js/main.0a0708fb.js.map"
+      "file": "static/js/main.541a3f29.js.map"
     }
   ],
   "./registerServiceWorker": [
     {
       "id": 17,
       "name": "./src/registerServiceWorker.js",
-      "file": "static/js/main.0a0708fb.js"
+      "file": "static/js/main.541a3f29.js"
     },
     {
       "id": 17,
       "name": "./src/registerServiceWorker.js",
-      "file": "static/js/main.0a0708fb.js.map"
+      "file": "static/js/main.541a3f29.js.map"
     }
   ],
   "./routes": [
     {
       "id": 18,
       "name": "./src/routes.js",
-      "file": "static/js/main.0a0708fb.js"
+      "file": "static/js/main.541a3f29.js"
     },
     {
       "id": 18,
       "name": "./src/routes.js",
-      "file": "static/js/main.0a0708fb.js.map"
+      "file": "static/js/main.541a3f29.js.map"
     }
   ],
   "react-loadable": [
     {
       "id": 3,
       "name": "./node_modules/react-loadable/lib/index.js",
-      "file": "static/js/main.0a0708fb.js"
+      "file": "static/js/main.541a3f29.js"
     },
     {
       "id": 3,
       "name": "./node_modules/react-loadable/lib/index.js",
-      "file": "static/js/main.0a0708fb.js.map"
+      "file": "static/js/main.541a3f29.js.map"
     }
   ],
   "prop-types": [
     {
       "id": 4,
       "name": "./node_modules/prop-types/index.js",
-      "file": "static/js/main.0a0708fb.js"
+      "file": "static/js/main.541a3f29.js"
     },
     {
       "id": 4,
       "name": "./node_modules/prop-types/index.js",
-      "file": "static/js/main.0a0708fb.js.map"
+      "file": "static/js/main.541a3f29.js.map"
     }
   ],
   "C:\\Users\\gboze\\Documents\\projects\\opensource\\django-ssr\\frontend\\node_modules\\react-scripts\\config\\polyfills.js": [
     {
       "id": 8,
       "name": "./node_modules/react-scripts/config/polyfills.js",
-      "file": "static/js/main.0a0708fb.js"
+      "file": "static/js/main.541a3f29.js"
     },
     {
       "id": 8,
       "name": "./node_modules/react-scripts/config/polyfills.js",
-      "file": "static/js/main.0a0708fb.js.map"
+      "file": "static/js/main.541a3f29.js.map"
     }
   ],
   "fbjs/lib/emptyFunction": [
     {
       "id": 20,
       "name": "./node_modules/fbjs/lib/emptyFunction.js",
-      "file": "static/js/main.0a0708fb.js"
+      "file": "static/js/main.541a3f29.js"
     },
     {
       "id": 20,
       "name": "./node_modules/fbjs/lib/emptyFunction.js",
-      "file": "static/js/main.0a0708fb.js.map"
+      "file": "static/js/main.541a3f29.js.map"
     }
   ],
   "fbjs/lib/invariant": [
     {
       "id": 21,
       "name": "./node_modules/fbjs/lib/invariant.js",
-      "file": "static/js/main.0a0708fb.js"
+      "file": "static/js/main.541a3f29.js"
     },
     {
       "id": 21,
       "name": "./node_modules/fbjs/lib/invariant.js",
-      "file": "static/js/main.0a0708fb.js.map"
+      "file": "static/js/main.541a3f29.js.map"
     }
   ],
   "./lib/ReactPropTypesSecret": [
     {
       "id": 22,
       "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
-      "file": "static/js/main.0a0708fb.js"
+      "file": "static/js/main.541a3f29.js"
     },
     {
       "id": 22,
       "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
-      "file": "static/js/main.0a0708fb.js.map"
+      "file": "static/js/main.541a3f29.js.map"
     }
   ],
   "promise/lib/rejection-tracking": [
     {
       "id": 9,
       "name": "./node_modules/promise/lib/rejection-tracking.js",
-      "file": "static/js/main.0a0708fb.js"
+      "file": "static/js/main.541a3f29.js"
     },
     {
       "id": 9,
       "name": "./node_modules/promise/lib/rejection-tracking.js",
-      "file": "static/js/main.0a0708fb.js.map"
+      "file": "static/js/main.541a3f29.js.map"
     }
   ],
   "promise/lib/es6-extensions.js": [
     {
       "id": 12,
       "name": "./node_modules/promise/lib/es6-extensions.js",
-      "file": "static/js/main.0a0708fb.js"
+      "file": "static/js/main.541a3f29.js"
     },
     {
       "id": 12,
       "name": "./node_modules/promise/lib/es6-extensions.js",
-      "file": "static/js/main.0a0708fb.js.map"
+      "file": "static/js/main.541a3f29.js.map"
     }
   ],
   "whatwg-fetch": [
     {
       "id": 13,
       "name": "./node_modules/whatwg-fetch/fetch.js",
-      "file": "static/js/main.0a0708fb.js"
+      "file": "static/js/main.541a3f29.js"
     },
     {
       "id": 13,
       "name": "./node_modules/whatwg-fetch/fetch.js",
-      "file": "static/js/main.0a0708fb.js.map"
+      "file": "static/js/main.541a3f29.js.map"
     }
   ],
   "./core.js": [
     {
       "id": 2,
       "name": "./node_modules/promise/lib/core.js",
-      "file": "static/js/main.0a0708fb.js"
+      "file": "static/js/main.541a3f29.js"
     },
     {
       "id": 2,
       "name": "./node_modules/promise/lib/core.js",
-      "file": "static/js/main.0a0708fb.js.map"
+      "file": "static/js/main.541a3f29.js.map"
     }
   ],
   "asap/raw": [
     {
       "id": 10,
       "name": "./node_modules/asap/browser-raw.js",
-      "file": "static/js/main.0a0708fb.js"
+      "file": "static/js/main.541a3f29.js"
     },
     {
       "id": 10,
       "name": "./node_modules/asap/browser-raw.js",
-      "file": "static/js/main.0a0708fb.js.map"
+      "file": "static/js/main.541a3f29.js.map"
     }
   ],
   "./../webpack/buildin/global.js": [
     {
       "id": 11,
       "name": "./node_modules/webpack/buildin/global.js",
-      "file": "static/js/main.0a0708fb.js"
+      "file": "static/js/main.541a3f29.js"
     },
     {
       "id": 11,
       "name": "./node_modules/webpack/buildin/global.js",
-      "file": "static/js/main.0a0708fb.js.map"
+      "file": "static/js/main.541a3f29.js.map"
     }
   ]
 }

@@ -24,7 +24,7 @@ const loadImages = ({ include, exclude, options } = {}) => ({
 });
 module.exports = {
     context: srcPath,
-    entry: 'server.js',
+    entry: 'server/index.js',
     output: {
         path: distPath,
         filename: 'server.js',

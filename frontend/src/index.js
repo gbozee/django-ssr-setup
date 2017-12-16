@@ -1,3 +1,5 @@
+// import React from "preact-compat";
+// import ReactDOM from "preact-compat";
 import React from "react";
 import ReactDOM from "react-dom";
 import registerServiceWorker from "./registerServiceWorker";
@@ -18,6 +20,11 @@ const Root = props => (
 registerServiceWorker();
 window.main = () => {
   Loadable.preloadReady().then(() => {
-    ReactDOM.hydrate(<Root />, document.getElementById("root"));
+    // ReactDOM.render(<Root />, document.getElementById("root"));
+    let func = ReactDOM.hydrate
+    if (!!func === false){
+      func = ReactDOM.render
+    }
+    func(<Root />, document.getElementById("root"));
   });
 };

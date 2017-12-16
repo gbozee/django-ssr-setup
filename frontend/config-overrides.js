@@ -24,7 +24,7 @@ function rewireLoadable(config,env){
     config.plugins = [
         ...config.plugins,
         new ReactLoadablePlugin({
-            filename: './src/react-loadable.json',
+            filename: './src/server/react-loadable.json',
         }),
     ]
     return injectBabelPlugin("react-loadable/babel", config);
@@ -35,7 +35,7 @@ module.exports = function override(config, env) {
     // use the Preact rewire
     if (env === "production") {
         console.log("⚡ Production build with Preact");
-        // config = rewirePreact(config, env);
+        config = rewirePreact(config, env);
         config = rewireStyledComponents(config, env, {
             ssr: true,
         })
