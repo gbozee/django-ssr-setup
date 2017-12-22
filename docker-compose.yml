@@ -1,0 +1,29 @@
+version: "2"
+# networks:
+#   app: null
+volumes:
+  static_files: {}
+services:
+  django:
+    build: 
+      context: .
+      dockerfile: compose/backend/Dockerfile
+    command: python manage.py runserver 0.0.0.0:8000
+    environment:
+      - NODE_ASSETS=/var/tuteria
+    volumes:
+      - static_files:/var/tuteria
+      - ./django_ssr:/app
+    ports:
+    - "8000:8000"
+
+  node:
+    build: 
+      context: frontend
+    volumes:
+      - static_files:/usr/src/app/build/static
+    command: npm run server
+    ports:
+    - "3000:3000"
+
+  

@@ -1,0 +1,45 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+    </style>
+    {% for css_file in styles %}
+        <link rel="stylesheet" href="{{css_file}}"> 
+    {% endfor %}
+    {% autoescape off %}
+        {{css}}
+    {% endautoescape %}
+    
+</head>
+<body>
+    
+    {% autoescape off %}
+    <div id="root">
+        {{html}}
+    </div>
+    {% endautoescape %}
+    <script type="text/javascript" src="https://unpkg.com/@umds/object-assign@4.1.1-beta.24/object-assign.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/preact@8.2.7/dist/preact.min.js"></script>
+    <script src="https://unpkg.com/prop-types@15.6/prop-types.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/preact-compat@3.17.0/dist/preact-compat.min.js"></script>
+    <script>
+        window.React = preactCompat;
+        window.ReactDOM = preactCompat;</script>
+    <script type="text/javascript" src="https://unpkg.com/react-router-dom@4.2.2/umd/react-router-dom.min.js"></script>
+
+    {% for script in scripts %}
+        <script src="{{ script }}"></script>
+    {% endfor %}
+    <script>window.main()</script>
+        
+</body>
+</html>

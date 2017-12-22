@@ -1,5 +1,5 @@
 import React from "react";
-import { getComponents } from "./utils";
+import { getComponents as GC } from "./utils";
 import ReactDOMServer from "react-dom/server";
 import { ServerStyleSheet } from "styled-components";
 import Loadable from "react-loadable";
@@ -13,7 +13,7 @@ export const cdn = `
 <script type="text/javascript" src="https://unpkg.com/react-router-dom@4.2.2/umd/react-router-dom.min.js"></script>
     `;
 export const afterScripts = ` `;
-export default (path, context) => {
+export const getComponent =  (path, context) => {
   const sheet = new ServerStyleSheet();
   const modules = [];
   const html = ReactDOMServer.renderToString(
@@ -30,5 +30,5 @@ export default (path, context) => {
     )
   );
 
-  return getComponents(ReactDOMServer.renderToString,path, context);
+  return GC(ReactDOMServer.renderToString,path, context);
 };

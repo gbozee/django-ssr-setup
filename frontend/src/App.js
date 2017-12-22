@@ -20,13 +20,13 @@ const styles = `
     height: 150px;
     padding: 20px;
     color: white;
-  }
-  img{
-    animation: ${logoSpin} infinite 20s linear;
-    height: 80px;
-  }
-  h1{
-    font-size: 1.5em;
+    img{
+      animation: ${logoSpin} infinite 20s linear;
+      height: 80px;
+    }
+    h1{
+      font-size: 1.5em;
+    }
   }
   p{
     font-size: large;

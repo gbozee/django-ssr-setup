@@ -22,75 +22,79 @@ const loadImages = ({ include, exclude, options } = {}) => ({
         ],
     },
 });
-module.exports = {
-    context: srcPath,
-    entry: 'server/index.js',
-    output: {
-        path: distPath,
-        filename: 'server.js',
-        publicPath: '/public/',
-    },
+module.exports = env => {
+    console.log(env.FRONTEND_ENV)
+    return {
 
-    target: 'node',
-    node: {
-        __dirname: false,
-        __filename: false,
-    },
-
-    resolve: {
-        modules: ['node_modules', 'src'],
-        extensions: ['*', '.js', '.json'],
-        "alias": {
-            "react": "preact-compat",
-            "react-dom": "preact-compat"
-        }
-    },
+        context: srcPath,
+        entry: env.FRONTEND_ENV==='preact'? `server/index.preact.js` : 'server/index.js',
+        output: {
+            path: distPath,
+            filename: 'server.js',
+            publicPath: '/public/',
+        },
     
-    module: {
-        rules: [
-            {
-                test: /\.(png|jpg|svg)$/,
-                use: {
-                    loader: "url-loader",
-                    options: {
-                        limit: 15000,
-                        name: "[name].[ext]",
+        target: 'node',
+        node: {
+            __dirname: false,
+            __filename: false,
+        },
+    
+        resolve: {
+            modules: ['node_modules', 'src'],
+            extensions: ['*', '.js', '.json'],
+            "alias": {
+                "react": "preact-compat",
+                "react-dom": "preact-compat"
+            }
+        },
+        
+        module: {
+            rules: [
+                {
+                    test: /\.(png|jpg|svg)$/,
+                    use: {
+                        loader: "url-loader",
+                        options: {
+                            limit: 15000,
+                            name: "[name].[ext]",
+                        },
                     },
                 },
-            },
-            {
-                test: /\.js$/,
-                exclude: /(node_modules|bower_components)/,
-                use: {
-                    loader: 'babel-loader',
-                    // options: {
-                    //     babelrc: false,
-                    //     presets: [
-                    //         ['env', {
-                    //             targets: {
-                    //                 node: 8,
-                    //             },
-                    //     }], 'react'
-                    //     ],
-                    //     "plugins": [
-                    //         "transform-object-rest-spread",
-                    //         "dynamic-import-webpack",
-                    //         "react-loadable/babel"]
-
-                    // }
-                }
-            }
-            // {
-            //     test: /\.js$/,
-            //     exclude: /node_modules/,
-            //     loader: 'babel-loader',
-            //     babelrc: false,
-            //     query: {
-            //                         }
-            // },
-        ],
-    },
-    externals: nodeExternals(),
+                {
+                    test: /\.js$/,
+                    exclude: /(node_modules|bower_components)/,
+                    use: {
+                        loader: 'babel-loader',
+                        // options: {
+                        //     babelrc: false,
+                        //     presets: [
+                        //         ['env', {
+                        //             targets: {
+                        //                 node: 8,
+                        //             },
+                        //     }], 'react'
+                        //     ],
+                        //     "plugins": [
+                        //         "transform-object-rest-spread",
+                        //         "dynamic-import-webpack",
+                        //         "react-loadable/babel"]
     
+                        // }
+                    }
+                }
+                // {
+                //     test: /\.js$/,
+                //     exclude: /node_modules/,
+                //     loader: 'babel-loader',
+                //     babelrc: false,
+                //     query: {
+                //                         }
+                // },
+            ],
+        },
+        externals: nodeExternals(),
+        
+    }
 
 };

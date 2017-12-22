@@ -1,5 +1,5 @@
 import "./patchPreact";
-import { getComponents } from "../utils";
+import { getComponents as GC } from "../utils";
 import renderToString from "preact-render-to-string";
 
 export const cdn = `
@@ -15,6 +15,6 @@ window.ReactDOM = preactCompat;</script>
 <script type="text/javascript" src="https://unpkg.com/react-router-dom@4.2.2/umd/react-router-dom.min.js"></script>
 `
 
-export default (path, context) => {
-  return getComponents(renderToString, path, context);
+export const getComponent =  (path, context) => {
+  return GC(renderToString, path, context);
 };

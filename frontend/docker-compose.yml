@@ -1,9 +1,0 @@
-version: "2"
-# networks:
-#   app: null
-services:
-  node:
-    build: .
-    command: npm run server
-    ports:
-    - "3000:3000"

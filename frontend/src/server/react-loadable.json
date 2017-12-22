@@ -3,24 +3,24 @@
     {
       "id": 5,
       "name": "./src/App.js",
-      "file": "static/js/0.791cf6af.chunk.js"
+      "file": "static/js/0.e336ca6a.chunk.js"
     },
     {
       "id": 5,
       "name": "./src/App.js",
-      "file": "static/js/0.791cf6af.chunk.js.map"
+      "file": "static/js/0.e336ca6a.chunk.js.map"
     }
   ],
   "styled-components": [
     {
       "id": 23,
       "name": "./node_modules/styled-components/dist/styled-components.es.js",
-      "file": "static/js/0.791cf6af.chunk.js"
+      "file": "static/js/0.e336ca6a.chunk.js"
     },
     {
       "id": 23,
       "name": "./node_modules/styled-components/dist/styled-components.es.js",
-      "file": "static/js/0.791cf6af.chunk.js.map"
+      "file": "static/js/0.e336ca6a.chunk.js.map"
     },
     {
       "id": 23,
@@ -37,12 +37,12 @@
     {
       "id": 24,
       "name": "./node_modules/webpack/buildin/harmony-module.js",
-      "file": "static/js/0.791cf6af.chunk.js"
+      "file": "static/js/0.e336ca6a.chunk.js"
     },
     {
       "id": 24,
       "name": "./node_modules/webpack/buildin/harmony-module.js",
-      "file": "static/js/0.791cf6af.chunk.js.map"
+      "file": "static/js/0.e336ca6a.chunk.js.map"
     },
     {
       "id": 24,
@@ -59,12 +59,12 @@
     {
       "id": 25,
       "name": "./node_modules/is-plain-object/index.js",
-      "file": "static/js/0.791cf6af.chunk.js"
+      "file": "static/js/0.e336ca6a.chunk.js"
     },
     {
       "id": 25,
       "name": "./node_modules/is-plain-object/index.js",
-      "file": "static/js/0.791cf6af.chunk.js.map"
+      "file": "static/js/0.e336ca6a.chunk.js.map"
     },
     {
       "id": 25,
@@ -81,12 +81,12 @@
     {
       "id": 26,
       "name": "./node_modules/isobject/index.js",
-      "file": "static/js/0.791cf6af.chunk.js"
+      "file": "static/js/0.e336ca6a.chunk.js"
     },
     {
       "id": 26,
       "name": "./node_modules/isobject/index.js",
-      "file": "static/js/0.791cf6af.chunk.js.map"
+      "file": "static/js/0.e336ca6a.chunk.js.map"
     },
     {
       "id": 26,
@@ -103,12 +103,12 @@
     {
       "id": 27,
       "name": "./node_modules/stylis/stylis.js",
-      "file": "static/js/0.791cf6af.chunk.js"
+      "file": "static/js/0.e336ca6a.chunk.js"
     },
     {
       "id": 27,
       "name": "./node_modules/stylis/stylis.js",
-      "file": "static/js/0.791cf6af.chunk.js.map"
+      "file": "static/js/0.e336ca6a.chunk.js.map"
     },
     {
       "id": 27,
@@ -125,12 +125,12 @@
     {
       "id": 28,
       "name": "./node_modules/is-function/index.js",
-      "file": "static/js/0.791cf6af.chunk.js"
+      "file": "static/js/0.e336ca6a.chunk.js"
     },
     {
       "id": 28,
       "name": "./node_modules/is-function/index.js",
-      "file": "static/js/0.791cf6af.chunk.js.map"
+      "file": "static/js/0.e336ca6a.chunk.js.map"
     },
     {
       "id": 28,
@@ -147,12 +147,12 @@
     {
       "id": 29,
       "name": "./node_modules/hoist-non-react-statics/index.js",
-      "file": "static/js/0.791cf6af.chunk.js"
+      "file": "static/js/0.e336ca6a.chunk.js"
     },
     {
       "id": 29,
       "name": "./node_modules/hoist-non-react-statics/index.js",
-      "file": "static/js/0.791cf6af.chunk.js.map"
+      "file": "static/js/0.e336ca6a.chunk.js.map"
     },
     {
       "id": 29,
@@ -169,12 +169,12 @@
     {
       "id": 30,
       "name": "./src/logo.svg",
-      "file": "static/js/0.791cf6af.chunk.js"
+      "file": "static/js/0.e336ca6a.chunk.js"
     },
     {
       "id": 30,
       "name": "./src/logo.svg",
-      "file": "static/js/0.791cf6af.chunk.js.map"
+      "file": "static/js/0.e336ca6a.chunk.js.map"
     }
   ],
   "./App2": [
@@ -193,244 +193,244 @@
     {
       "id": 19,
       "name": "./node_modules/prop-types/factoryWithThrowingShims.js",
-      "file": "static/js/main.541a3f29.js"
+      "file": "static/js/main.e5ea9695.js"
     },
     {
       "id": 19,
       "name": "./node_modules/prop-types/factoryWithThrowingShims.js",
-      "file": "static/js/main.541a3f29.js.map"
+      "file": "static/js/main.e5ea9695.js.map"
     }
   ],
   "undefined": [
     {
       "id": 7,
       "name": null,
-      "file": "static/js/main.541a3f29.js"
+      "file": "static/js/main.e5ea9695.js"
     },
     {
       "id": 0,
       "name": "react",
-      "file": "static/js/main.541a3f29.js"
+      "file": "static/js/main.e5ea9695.js"
     },
     {
       "id": 16,
       "name": "react-dom",
-      "file": "static/js/main.541a3f29.js"
+      "file": "static/js/main.e5ea9695.js"
     },
     {
       "id": 1,
       "name": "react-router-dom",
-      "file": "static/js/main.541a3f29.js"
+      "file": "static/js/main.e5ea9695.js"
     },
     {
       "id": 14,
       "name": "object-assign",
-      "file": "static/js/main.541a3f29.js"
+      "file": "static/js/main.e5ea9695.js"
     },
     {
       "id": 7,
       "name": null,
-      "file": "static/js/main.541a3f29.js.map"
+      "file": "static/js/main.e5ea9695.js.map"
     },
     {
       "id": 0,
       "name": "react",
-      "file": "static/js/main.541a3f29.js.map"
+      "file": "static/js/main.e5ea9695.js.map"
     },
     {
       "id": 16,
       "name": "react-dom",
-      "file": "static/js/main.541a3f29.js.map"
+      "file": "static/js/main.e5ea9695.js.map"
     },
     {
       "id": 1,
       "name": "react-router-dom",
-      "file": "static/js/main.541a3f29.js.map"
+      "file": "static/js/main.e5ea9695.js.map"
     },
     {
       "id": 14,
       "name": "object-assign",
-      "file": "static/js/main.541a3f29.js.map"
+      "file": "static/js/main.e5ea9695.js.map"
     }
   ],
   "C:\\Users\\gboze\\Documents\\projects\\opensource\\django-ssr\\frontend\\src\\index.js": [
     {
       "id": 15,
       "name": "./src/index.js",
-      "file": "static/js/main.541a3f29.js"
+      "file": "static/js/main.e5ea9695.js"
     },
     {
       "id": 15,
       "name": "./src/index.js",
-      "file": "static/js/main.541a3f29.js.map"
+      "file": "static/js/main.e5ea9695.js.map"
     }
   ],
   "./registerServiceWorker": [
     {
       "id": 17,
       "name": "./src/registerServiceWorker.js",
-      "file": "static/js/main.541a3f29.js"
+      "file": "static/js/main.e5ea9695.js"
     },
     {
       "id": 17,
       "name": "./src/registerServiceWorker.js",
-      "file": "static/js/main.541a3f29.js.map"
+      "file": "static/js/main.e5ea9695.js.map"
     }
   ],
   "./routes": [
     {
       "id": 18,
       "name": "./src/routes.js",
-      "file": "static/js/main.541a3f29.js"
+      "file": "static/js/main.e5ea9695.js"
     },
     {
       "id": 18,
       "name": "./src/routes.js",
-      "file": "static/js/main.541a3f29.js.map"
+      "file": "static/js/main.e5ea9695.js.map"
     }
   ],
   "react-loadable": [
     {
       "id": 3,
       "name": "./node_modules/react-loadable/lib/index.js",
-      "file": "static/js/main.541a3f29.js"
+      "file": "static/js/main.e5ea9695.js"
     },
     {
       "id": 3,
       "name": "./node_modules/react-loadable/lib/index.js",
-      "file": "static/js/main.541a3f29.js.map"
+      "file": "static/js/main.e5ea9695.js.map"
     }
   ],
   "prop-types": [
     {
       "id": 4,
       "name": "./node_modules/prop-types/index.js",
-      "file": "static/js/main.541a3f29.js"
+      "file": "static/js/main.e5ea9695.js"
     },
     {
       "id": 4,
       "name": "./node_modules/prop-types/index.js",
-      "file": "static/js/main.541a3f29.js.map"
+      "file": "static/js/main.e5ea9695.js.map"
     }
   ],
   "C:\\Users\\gboze\\Documents\\projects\\opensource\\django-ssr\\frontend\\node_modules\\react-scripts\\config\\polyfills.js": [
     {
       "id": 8,
       "name": "./node_modules/react-scripts/config/polyfills.js",
-      "file": "static/js/main.541a3f29.js"
+      "file": "static/js/main.e5ea9695.js"
     },
     {
       "id": 8,
       "name": "./node_modules/react-scripts/config/polyfills.js",
-      "file": "static/js/main.541a3f29.js.map"
+      "file": "static/js/main.e5ea9695.js.map"
     }
   ],
   "fbjs/lib/emptyFunction": [
     {
       "id": 20,
       "name": "./node_modules/fbjs/lib/emptyFunction.js",
-      "file": "static/js/main.541a3f29.js"
+      "file": "static/js/main.e5ea9695.js"
     },
     {
       "id": 20,
       "name": "./node_modules/fbjs/lib/emptyFunction.js",
-      "file": "static/js/main.541a3f29.js.map"
+      "file": "static/js/main.e5ea9695.js.map"
     }
   ],
   "fbjs/lib/invariant": [
     {
       "id": 21,
       "name": "./node_modules/fbjs/lib/invariant.js",
-      "file": "static/js/main.541a3f29.js"
+      "file": "static/js/main.e5ea9695.js"
     },
     {
       "id": 21,
       "name": "./node_modules/fbjs/lib/invariant.js",
-      "file": "static/js/main.541a3f29.js.map"
+      "file": "static/js/main.e5ea9695.js.map"
     }
   ],
   "./lib/ReactPropTypesSecret": [
     {
       "id": 22,
       "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
-      "file": "static/js/main.541a3f29.js"
+      "file": "static/js/main.e5ea9695.js"
     },
     {
       "id": 22,
       "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
-      "file": "static/js/main.541a3f29.js.map"
+      "file": "static/js/main.e5ea9695.js.map"
     }
   ],
   "promise/lib/rejection-tracking": [
     {
       "id": 9,
       "name": "./node_modules/promise/lib/rejection-tracking.js",
-      "file": "static/js/main.541a3f29.js"
+      "file": "static/js/main.e5ea9695.js"
     },
     {
       "id": 9,
       "name": "./node_modules/promise/lib/rejection-tracking.js",
-      "file": "static/js/main.541a3f29.js.map"
+      "file": "static/js/main.e5ea9695.js.map"
     }
   ],
   "promise/lib/es6-extensions.js": [
     {
       "id": 12,
       "name": "./node_modules/promise/lib/es6-extensions.js",
-      "file": "static/js/main.541a3f29.js"
+      "file": "static/js/main.e5ea9695.js"
     },
     {
       "id": 12,
       "name": "./node_modules/promise/lib/es6-extensions.js",
-      "file": "static/js/main.541a3f29.js.map"
+      "file": "static/js/main.e5ea9695.js.map"
     }
   ],
   "whatwg-fetch": [
     {
       "id": 13,
       "name": "./node_modules/whatwg-fetch/fetch.js",
-      "file": "static/js/main.541a3f29.js"
+      "file": "static/js/main.e5ea9695.js"
     },
     {
       "id": 13,
       "name": "./node_modules/whatwg-fetch/fetch.js",
-      "file": "static/js/main.541a3f29.js.map"
+      "file": "static/js/main.e5ea9695.js.map"
     }
   ],
   "./core.js": [
     {
       "id": 2,
       "name": "./node_modules/promise/lib/core.js",
-      "file": "static/js/main.541a3f29.js"
+      "file": "static/js/main.e5ea9695.js"
     },
     {
       "id": 2,
       "name": "./node_modules/promise/lib/core.js",
-      "file": "static/js/main.541a3f29.js.map"
+      "file": "static/js/main.e5ea9695.js.map"
     }
   ],
   "asap/raw": [
     {
       "id": 10,
       "name": "./node_modules/asap/browser-raw.js",
-      "file": "static/js/main.541a3f29.js"
+      "file": "static/js/main.e5ea9695.js"
     },
     {
       "id": 10,
       "name": "./node_modules/asap/browser-raw.js",
-      "file": "static/js/main.541a3f29.js.map"
+      "file": "static/js/main.e5ea9695.js.map"
     }
   ],
   "./../webpack/buildin/global.js": [
     {
       "id": 11,
       "name": "./node_modules/webpack/buildin/global.js",
-      "file": "static/js/main.541a3f29.js"
+      "file": "static/js/main.e5ea9695.js"
     },
     {
       "id": 11,
       "name": "./node_modules/webpack/buildin/global.js",
-      "file": "static/js/main.541a3f29.js.map"
+      "file": "static/js/main.e5ea9695.js.map"
     }
   ]
 }
